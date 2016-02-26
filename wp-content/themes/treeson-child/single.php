@@ -27,7 +27,7 @@
                             <article <?php post_class(); ?>>
 
                                 <!-- TITLE -->
-                                <h1 class="post-title"><?php the_title(); ?></h1>
+                                <h1 class="post-title mypost"><?php the_title(); ?></h1>
                           
                                 <!-- TOP META : AUTHOR / TIME / COMMENTS -->
                                 <?php get_template_part( 'templates/meta/top' ); ?>
